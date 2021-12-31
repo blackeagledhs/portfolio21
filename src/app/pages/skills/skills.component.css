@@ -1,0 +1,14 @@
+.tarjetas {
+	max-width: 1800px;
+	align-self: auto;
+	margin: 0px 50px;
+	background-color: white transparent;
+	
+}
+.cajas {
+	max-width: 600px;
+	align-items: flex-end;
+	align-self: auto;
+	align-content: center;
+	margin: auto;
+}
