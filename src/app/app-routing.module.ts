@@ -18,7 +18,8 @@ const routes: Routes = [
   { path: 'skills', component: SkillsComponent},
   { path: 'projects', component: ProjectsComponent},
   { path: 'contact', component: ContactComponent},
-  { path: '**', component: NotfoundComponent},
+  { path: '', redirectTo: '/home', pathMatch: 'full'},
+  { path: '**', component: NotfoundComponent}
 ];
 
 @NgModule({
