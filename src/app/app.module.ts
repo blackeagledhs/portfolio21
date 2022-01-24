@@ -10,7 +10,10 @@ import { ExperienceComponent } from './pages/experience/experience.component';
 import { StudiesComponent } from './pages/studies/studies.component';
 import { SkillsComponent } from './pages/skills/skills.component';
 import { ProjectsComponent } from './pages/projects/projects.component';
-import { HttpClientModule } from '@angular/common/http'
+import { HttpClientModule } from '@angular/common/http';
+import { HomeComponent } from './pages/home/home.component';
+import { NotfoundComponent } from './pages/notfound/notfound.component';
+import { ContactComponent } from './pages/contact/contact.component'
 
 @NgModule({
   declarations: [
@@ -21,7 +24,10 @@ import { HttpClientModule } from '@angular/common/http'
     ExperienceComponent,
     StudiesComponent,
     SkillsComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    HomeComponent,
+    NotfoundComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,

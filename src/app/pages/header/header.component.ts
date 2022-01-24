@@ -8,10 +8,10 @@ import { ServiceService } from 'src/app/services/service.service';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor(private datosService:ServiceService) { }
+  
 
   ngOnInit(): void {
-    this.datosService.obtenerDatos();
+    
   }
 
 }
