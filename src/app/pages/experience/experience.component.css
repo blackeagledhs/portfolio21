@@ -307,8 +307,7 @@ a {
       left: 65px;
     }
   }
-.container {
-    background-color: #ffffff;
-    
-}  
 
+  .container {
+      background-color: #ffffffe0;
+  }
