@@ -1,4 +1,10 @@
 {
+    "aboutme": {
+            "name": "Mauro Andres Vicens",
+            "title": "Desarrollador Full Stack",
+            "quiensoy": "Buena presencia. Joven, dinámico, con ganas de labrarme un futuro. Facilidad de trato con Clientes. Gran capacidad de trabajo, entusiasmo y energía. Amplios conocimientos de las nuevas tecnologías y sus aplicaciones prácticas. Facilidad de aprendizaje."
+        },
+    
     "experience": [
         {
             "posicion": "Técnico de Mantenimiento de Red",
@@ -21,5 +27,24 @@
             "inicio": "02-2005",
             "fin": "08-2005"
         }
-    ]
+    ],
+
+    "studies": [
+        {
+            "titulo": "",
+            "institucion": "",
+            "anio": ""
+        }
+    ],
+
+    "skills": [
+
+    ],
+
+    "projects": [
+        
+    ],
+    "contact": {
+        
+    }
 }

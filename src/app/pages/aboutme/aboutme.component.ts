@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { ServiceService } from 'src/app/services/service.service'
+
 
 @Component({
   selector: 'app-aboutme',
@@ -7,9 +9,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AboutmeComponent implements OnInit {
 
-  constructor() { }
+  listaboutme:any;
+  constructor(private dataAboutme:ServiceService) { }
 
   ngOnInit(): void {
+    this.dataAboutme.obtenerDatos().subscribe(data =>{
+      this.listaboutme = data.aboutme;
+    })
   }
 
 }
